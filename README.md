@@ -1,8 +1,8 @@
-# zhaoyao91:short-oauth-state
+# ulion:short-oauth-state
 Make oauth state short in url.
 
 ## Installation
-`meteor add zhaoyao91:short-oauth-state`
+`meteor add ulion:short-oauth-state`
 
 ## Note about Implementation
 This package shorten oauth state in url by saving state in server, not blocking the oauth flow in the mean time. We
