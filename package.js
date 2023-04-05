@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'ulion:short-oauth-state',
-  version: '0.1.1',
+  name: 'vatfree:short-oauth-state',
+  version: '0.1.2',
   summary: 'make oauth state short in url',
-  git: 'https://github.com/ulion/meteor-short-oauth-state',
+  git: 'https://github.com/vatfree/short-oauth-state',
   documentation: 'README.md'
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.2.1')
+  api.versionsFrom('2.3')
   api.use('ecmascript')
   api.use('mongo', 'server')
   api.use('oauth')

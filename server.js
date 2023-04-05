@@ -1,6 +1,6 @@
 const State = new Mongo.Collection('oauth_state')
 
-State._ensureIndex({expiredAt: 1}, {expireAfterSeconds: 0})
+State.createIndex({expiredAt: 1}, {expireAfterSeconds: 0})
 
 function getExpiredAt () {
   const now = new Date().getTime()
